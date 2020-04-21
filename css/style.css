@@ -1,0 +1,281 @@
+
+      body {
+          color: black;
+          background: white;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:visited {
+          color: black;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+      a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10pt;
+    }
+
+     h1 {
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    h2 {
+   text-align:right;
+   font-family: "Times New Roman", Times, serif;
+   margin-top:40px;
+   margin-right:80px;
+   }
+
+    .mar10t {
+      margin-top:10px;
+    }
+
+    .mar30t {
+      margin-top:30px;
+    }
+
+    .mar70t {
+      margin-top:70px;
+    }
+
+    .mar80t {
+      margin-top:80px;
+    }
+
+
+    .mar100t {
+      margin-top:100px;
+    }
+
+    .mar120t {
+      margin-top:120px;
+    }
+
+    .mar170t {
+      margin-top:170px;
+    }
+
+    .mar200t {
+      margin-top:200px;
+    }
+
+    .mar250t {
+      margin-top:250px;
+    }
+
+    .mar300t {
+      margin-top:300px;
+    }
+
+    .mar350t {
+      margin-top:350px;
+    }
+
+    .mar400t {
+      margin-top:400px;
+    }
+
+    .mar550t {
+      margin-top:550px;
+    }
+
+    .mar600t {
+      margin-top:600px;
+    }
+
+    .mar750t {
+      margin-top:750px;
+    }
+
+    .mar80r {
+      margin-right:80px;
+    }
+
+    .mar100r {
+      margin-right:100px;
+    }
+
+    .mar130r {
+      margin-right:130px;
+    }
+
+    .mar150r {
+      margin-right:150px;
+    }
+
+    .mar200r {
+      margin-right:200px;
+    }
+
+    .mar300r {
+      margin-right:300px;
+    }
+
+    .mar400r {
+      margin-right:400px;
+    }
+
+    .mar600r {
+      margin-right:600px;
+    }
+
+    .mar800r {
+      margin-right:800px;
+    }
+
+    .mar5l {
+      margin-left:5px;
+    }
+
+    .mar15l {
+      margin-left:15px;
+    }
+
+    .mar30l {
+      margin-left:30px;
+    }
+
+    .mar75l {
+      margin-left:75px;
+    }
+
+    .mar80l {
+      margin-left:80px;
+    }
+
+    .mar100l {
+      margin-left:100px;
+    }
+
+    .mar130l {
+      margin-left:130px;
+    }
+
+    .mar140l {
+      margin-left:140px;
+    }
+
+    .mar150l {
+      margin-left:150px;
+    }
+
+    .mar170l {
+      margin-left:170px;
+    }
+
+    .mar200l {
+      margin-left:200px;
+    }
+
+    .mar250l {
+      margin-left:250px;
+    }
+
+    .mar300l {
+      margin-left:300px;
+    }
+
+    .mar350l {
+      margin-left:350px;
+    }
+
+    .mar400l {
+      margin-left:400px;
+    }
+
+    .mar600l {
+      margin-left:600px;
+    }
+
+    .mar30b {
+      margin-bottom:30px;
+    }
+
+    .floatleft {
+      float:left;
+    }
+
+    .floatright {
+      float:right;
+    }
+
+
+        .navbar {
+         position:fixed;
+         float:left;
+         display:block;
+         color: black;
+         text-align: center;
+         padding: 14px 20px;
+         text-decoration: none;
+         font-family: "Times New Roman", Times, serif;
+         margin-top:10px;
+         }
+
+
+         .about1 {
+           position: absolute;
+           top: 30%;
+           left: 10%;
+           column-width: 10px;
+           column-count:1;
+         }
+
+         .about2 {
+           position: absolute;
+           top: 25%;
+           left: 42%;
+           column-width: 100px;
+           text-align: center;
+           column-count:1;
+         }
+
+
+         .about3 {
+           position: absolute;
+           top: 10%;
+           left: 65%;
+           right: 15%;
+           column-width: 300px;
+           column-count:1;
+           text-align: right;
+         }
+
+    .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    }
+
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: black;
+   text-align: center;
+   font-size: 12px;
+  }

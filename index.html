@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BEATRIZ ROXO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+        <a href="index.html" class="active"><b>BEATRIZ ROXO</b></a>
+        <a href="about.html">About</a>
+        <a href="photography.html">Photography</a>
+        <a href="videography.html">Videography</a>
+        <a href="design.html">Graphic Design</a>
+        <a href="painting.html">Painting</a>
+        </div>
+
+        <div class="center">
+            <div class="slideshow" style="max-width:500px">
+              <a href="amilhas.html">
+                <img class="mySlides" src="photo/amilhas/amilhas3.jpg" style="width:100%">
+              </a>
+              <a href="utopia.html">
+                <img class="mySlides" src="photo/utopia/utopia13.jpg" style="width:100%">
+              </a>
+
+            <a href="untitled.html">
+              <img class="mySlides" src="photo/untitled/nikon2.jpg" style="width:100%">
+            </a>
+
+            <a href="utopia.html">
+              <img class="mySlides" src="photo/utopia/utopia5.jpg" style="width:100%">
+            </a>
+
+            <a href="amilhas.html">
+              <img class="mySlides" src="photo/amilhas/amilhas5.jpg" style="width:100%">
+            </a>
+
+            <a href="untitled.html">
+              <img class="mySlides" src="photo/untitled/nikon3.jpg" style="width:100%">
+            </a>
+
+            <a href="leve.html">
+              <img class="mySlides" src="photo/leve/leve2.jpg" style="width:100%">
+            </a>
+
+            <a href="amilhas.html">
+              <img class="mySlides" src="photo/amilhas/amilhas7.jpg" style="width:100%">
+            </a>
+        </div>
+      </div>
+
+        <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+        <div class="footer">
+      <p>Beatriz Roxo © 2020 All rights reserved</p>
+        </div>
+</html>
